@@ -50,6 +50,7 @@
             height: 36px;
             max-height: 100%;
             margin: auto;
+            flex: 1;
           }
         }
       }
@@ -58,6 +59,7 @@
       overflow-y: auto;
       height: inherit;
       padding: 0;
+      height: 90%;
     }
   }
   .tb-primary-toolbar {
@@ -70,5 +72,20 @@
   .tb-main-content {
     overflow: auto;
     position: relative;
+  }
+  mat-toolbar {
+    .toolbar-logo-background {
+      .toolbar-logo-title {
+        letter-spacing: 2.2px;
+        font-weight: 300;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 2;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
   }
 }

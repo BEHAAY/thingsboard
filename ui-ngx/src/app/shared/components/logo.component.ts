@@ -23,10 +23,10 @@ import { Component } from '@angular/core';
 })
 export class LogoComponent {
 
-  logo = 'assets/logo_title_white.svg';
+  logo = 'assets/just_logo.svg';
 
   gotoThingsboard(): void {
-    window.open('https://www.google.com', '_blank');
+    window.open('https://flexiss.jetbrains.space/', '_blank');
   }
 
 }

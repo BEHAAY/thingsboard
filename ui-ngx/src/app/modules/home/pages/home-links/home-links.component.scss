@@ -19,6 +19,8 @@
   .tb-home-links {
     .mat-headline {
       font-size: 20px;
+      color: #545558;
+      font-weight: 300;
       @media #{$mat-gt-xmd} {
         font-size: 24px;
       }
@@ -63,7 +65,7 @@
           padding: 0 0 20px 0;
           margin: auto;
           font-size: 18px;
-          font-weight: 400;
+          font-weight: 300;
           line-height: 18px;
           white-space: normal;
         }

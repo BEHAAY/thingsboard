@@ -34,8 +34,17 @@
         }
       }
 
-      .tb-action-button{
-        padding: 20px 0 16px;
+      .tb-action-button {
+        padding: 15px 0 10px;
+        button {
+          padding: 3px 6px;
+        }
+      }
+      .login-title {
+        padding: 10px 0px;
+        font-weight: 300;
+        letter-spacing: 2.2px;
+        font-size: 30px;
       }
     }
 

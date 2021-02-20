@@ -22,9 +22,9 @@
                [opened]="sidenavOpened && !forceFullscreen">
     <header class="tb-nav-header">
       <mat-toolbar color="primary" class="tb-nav-header-toolbar">
-        <div fxFlex="auto" fxLayout="row">
-          <img [src]="logo"
-               aria-label="logo" class="tb-logo-title"/>
+        <div fxFlex="auto" fxLayout="row" class="toolbar-logo-background">
+          <img [src]="logo" aria-label="logo" class="tb-logo-title" />
+          <span class="toolbar-logo-title">FLEX-IO</span>
         </div>
       </mat-toolbar>
     </header>
